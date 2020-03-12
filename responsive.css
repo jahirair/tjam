@@ -1,0 +1,123 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container{width:760px;}
+.logo {width: 150px;margin-left: 30px;}
+.story_left img{padding-right:40px;}
+.story_right{width:55%}
+
+.single_item button, .story_right button {display: block;margin: 40px auto;}
+video{ width: 100%;min-height: 0;}
+.expertise{width:100%;}
+.single_expertise{width:233px;padding:10px;margin-bottom:20px;height:253px;}
+.single_team{width:170px;padding:10px;margin-right:0px;}
+.single_team img{width:170px;}
+.portfolio_area .area_heading h1{margin-left:20px;}
+.portfolio_area .area_heading p{margin-right:20px;}
+.single_portfolio{width:253px;}
+.single_portfolio img{width:253px;height:200px;}
+.contact_left {width: 42%;margin-left: 20px;}
+.contact_right h1{margin-left: 20px;}
+.single_client{width:205px;}
+.single_footer{width:233px;padding:10px;margin-right:0;}
+.single_footer img{margin: 0 auto;display: block;margin-bottom: 30px;}
+.first_footer_div p{padding-left:20px;}
+.footer_bottom{margin-top:20px;padding:0 20px;}
+.single_footer input[type="submit"] {padding: 0px;height: 51px;width: 45px;}
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container{width:450px;}
+.logo {width: 100%;padding: 20px 0;}
+.logo img {margin: 0 auto;width: 128px;height: 50px;display: block;}
+.header_bottom {width: 460px;padding-top: 145px;}
+.main_menu ul li a {padding: 0 0 0 13px;}
+.single_item h1 {font-size: 25px;}
+.single_item button, .story_right button {padding: 5px;margin: 20px auto;}
+.story_left {display: block;width: 100%;}
+.story_left img {margin: 0 auto;width: 235px;display: block;margin-bottom: 25px;}
+.story_right {width: 100%;display: block;}
+.story_right h1 {margin-left: 0;text-align: center;}
+.our_story_video_area {
+	
+	height: 270px;
+	
+}
+.video-container {
+	height: 270px;
+	/* padding: 0; */
+}
+video{ width: 100%;height: 270px;}
+.our_story_video_area h2 {
+	
+	top: 80%;
+	
+}
+.expertise{width:100%;}
+.single_expertise{width:205px;padding:10px;margin-bottom:20px;height:253px;}
+.team_area .area_heading {padding-top: 0px;margin-bottom: 0px;}
+.team_area .area_heading h1{padding-top:20px;}
+.team_area .area_heading p{margin-right:20px;}
+
+.team {margin: 0px 0 35px 0;display: inline-block;}
+.single_team{width:205px;padding:10px;margin-right:0px;}
+.single_team img{width:205px;}
+.memb_info {padding: 5px;}
+.memb_info h3 {margin-bottom: 0px;}
+.portfolio_area .area_heading h1{margin-left:20px;}
+.portfolio_area .area_heading p{margin-right:20px;}
+.single_portfolio{width:240px;}
+.single_portfolio img{width:240px;height:200px;}
+.slider-nav {width: 430px;}
+.contact_left h1 {font-size: 16px;}
+.contact_right h1 {font-size: 16px;}
+.single_client {margin-bottom: 15px;}
+.footer_area {
+	/* background: url(images/footer_bg.jpg) no-repeat center center/cover; */
+	background: #372E5B;
+	width: 100%;
+	height: auto;
+}
+.single_footer {
+	
+	width: 100%;
+	margin-right: 0px;
+}
+.single_footer h3{text-align:center;}
+#social {
+	
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.footer_bottom {
+	
+	margin-top: 20px;
+}
+.footer_bottom ul {
+	
+	display: block;
+	width: 100%;
+	margin-bottom: 22px;
+}
+.footer_bottom p {
+	float: none;
+	padding-bottom: 20px;
+	text-align:center;
+}
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+}
+
+
+
